@@ -2,7 +2,26 @@ html {
     background-color: black;
     color: white;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95vh;
+}
 h2 {
     margin-top: 33vh;
     text-align: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;   
+}
+footer div a {
+    margin: 0 1em;
 }
