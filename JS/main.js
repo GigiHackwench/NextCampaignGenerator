@@ -44,5 +44,10 @@ const choices = [
     "in a community storm shelter.",
 
 ];
-const choice = choices[Math.floor(Math.random() * choices.length)];
-document.querySelector("#textGoHere").textContent = "Your next campaign begins " + choice;
+
+function getChoice() {
+    choice = choices[Math.floor(Math.random() * choices.length)];
+    document.querySelector("#textGoHere").textContent = "Your next campaign begins " + choice;
+}
+
+getChoice();
