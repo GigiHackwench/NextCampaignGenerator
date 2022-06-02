@@ -36,7 +36,13 @@ const choices = [
     "in a cave under the sea.",
     "in a tavern, i guess.",
     "around the dinner table, piled high with books and dice.",
-    "aboard a space station."
+    "aboard a space station.",
+    "in a stall at a bazaar.",
+    "at an underground poker game.",
+    "in rural Maine.",
+    "in a hostage situation.",
+    "in a community storm shelter.",
+
 ];
 const choice = choices[Math.floor(Math.random() * choices.length)];
 document.querySelector("#textGoHere").textContent = "Your next campaign begins " + choice;
