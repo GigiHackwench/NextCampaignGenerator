@@ -8,9 +8,25 @@ body {
     justify-content: space-between;
     height: 95vh;
 }
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.spacer {
+    flex-grow: 1;
+}
 h2 {
     margin-top: 37vh;
     text-align: center;
+}
+button {
+    background-color: rgb(126, 126, 126);
+    color: black;
+    border-radius: 10px;
+}
+button:active{
+    background-color: rgb(87, 87, 87);
 }
 footer {
     display: flex;
