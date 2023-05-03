@@ -36,7 +36,27 @@ const choices = [
     "in a cave under the sea.",
     "in a tavern, i guess.",
     "around the dinner table, piled high with books and dice.",
-    "aboard a space station."
+    "aboard a space station.",
+    "a haunted forest.",
+    "a bustling city market.",
+    "a sunken temple.",
+    "an underground cave system.",
+    "a frozen wasteland.",
+    "an abandoned castle.",
+    "a mysterious desert oasis.",
+    "a dark and treacherous swamp.",
+    "a cursed tomb.",
+    "a massive underground city.",
+    "a thriving jungle village.",
+    "a besieged fortress.",
+    "an otherworldly realm.",
+    "a hidden underground laboratory.",
+    "a giant treehouse.",
+    "a pirate's cove.",
+    "a massive floating city.",
+    "an eerie graveyard.",
+    "a massive, ancient library.",
+    "a sunken shipwreck."
 ];
 const choice = choices[Math.floor(Math.random() * choices.length)];
 document.querySelector("#textGoHere").textContent = "Your next campaign begins " + choice;
