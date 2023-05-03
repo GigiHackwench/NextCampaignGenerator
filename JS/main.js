@@ -42,7 +42,26 @@ const choices = [
     "in rural Maine.",
     "in a hostage situation.",
     "in a community storm shelter.",
-
+  "a haunted forest.",
+  "a bustling city market.",
+  "a sunken temple.",
+  "an underground cave system.",
+  "a frozen wasteland.",
+  "an abandoned castle.",
+  "a mysterious desert oasis.",
+  "a dark and treacherous swamp.",
+  "a cursed tomb.",
+  "a massive underground city.",
+  "a thriving jungle village.",
+  "a besieged fortress.",
+  "an otherworldly realm.",
+  "a hidden underground laboratory.",
+  "a giant treehouse.",
+  "a pirate's cove.",
+  "a massive floating city.",
+  "an eerie graveyard.",
+  "a massive, ancient library.",
+  "a sunken shipwreck."
 ];
 
 function getChoice() {
